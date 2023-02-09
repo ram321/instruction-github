@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(161, 100, 223);
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  margin: 10px;
+  color: white;
+  background-color: rebeccapurple;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: inherit;
+}
+.btn:hover {
+  opacity: 0.9;
+}
